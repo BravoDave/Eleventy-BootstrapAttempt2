@@ -1,3 +1,3 @@
 ---
-title: Blog Post no.2
+title: Blog Post no.2,
 ---

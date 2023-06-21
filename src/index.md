@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: base.njk
+layout: homePage.njk
 templateEngineOverride: njk, md
 ---
 
