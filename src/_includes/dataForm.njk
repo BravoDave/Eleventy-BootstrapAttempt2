@@ -1,0 +1,27 @@
+<!-- Data Form -->
+<form>
+<div class="input-group w-50 border border-success rounded">
+
+{# Email Input #}
+  <div class="form-group row p-3">
+    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Please enter your email here">
+    </div>
+
+{# Comment Box #}
+  <div class="text entry box">
+  <label for="comment">Comments:</label>
+  <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
+  </div>
+
+{# Check Box #}
+  <div class="form-checkbox text-center">
+  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked required>
+  <label class="form-check-label">Tick to agree to be contacted</label>
+  </div>
+
+  <button class="btn btn-success" type="submit">Submit</button>
+</div>
+</form>
+</div>
