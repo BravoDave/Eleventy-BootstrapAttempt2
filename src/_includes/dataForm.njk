@@ -1,27 +1,39 @@
-<!-- Data Form -->
-<form>
-<div class="input-group w-50 border border-success rounded">
+<!-- Wrapper container -->
+<div class="container border border-success rounded w-50"><h2>Please get in touch!</h2>
 
-{# Email Input #}
-  <div class="form-group row p-3">
-    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Please enter your email here">
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm">
+
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">Name:</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" />
     </div>
 
-{# Comment Box #}
-  <div class="text entry box">
-  <label for="comment">Comments:</label>
-  <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
-  </div>
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Email Address:</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+    </div>
 
-{# Check Box #}
-  <div class="form-checkbox text-center">
-  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked required>
-  <label class="form-check-label">Tick to agree to be contacted</label>
-  </div>
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Message:</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+    </div>
 
-  <button class="btn btn-success" type="submit">Submit</button>
-</div>
-</form>
+<!-- Check Box -->
+    <div class="form-checkbox text-center">
+      <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked required>
+      <label class="form-check-label">Tick to agree to be contacted</label>
+    </div>
+
+<!-- Form submit button -->
+    <div class="d-flex justify-content-center ">
+      <button class="btn btn-success btn-lg" type="submit">Submit</button>
+    </div>
+
+
+  </form>
+
 </div>
