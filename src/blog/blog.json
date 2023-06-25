@@ -1,8 +1,5 @@
 {
     "layout": "post.njk",
-<<<<<<< HEAD
     "permalink": "/{{ page.fileSlug }}/",
-=======
->>>>>>> main
     "tags": "blogposts"
 }
