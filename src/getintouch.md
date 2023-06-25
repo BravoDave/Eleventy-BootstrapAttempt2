@@ -4,5 +4,4 @@ layout: contact.njk
 templateEngineOverride: njk, md
 ---
 
-{% include "dataform.njk" %}
 
