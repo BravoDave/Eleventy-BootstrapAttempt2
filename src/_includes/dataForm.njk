@@ -5,21 +5,27 @@
   <form name="contactme" method="POST" data-netlify="true">
 
     <!-- Name input -->
-    <div class="form-group mb-3">
-      <label class="form-label" for="name">Name:</label>
-      <input class="form-control" id="name" type="text" placeholder="Name">
+    <div class="form-group">
+      <label for="name"> Name:</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" name="name">
     </div>
 
     <!-- Email address input -->
-    <div class="form-group mb-3">
-      <label class="form-label" for="emailAddress">Email Address:</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address">
+    <div class="form-group">
+      <label for="emailAddress">Email Address:</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="Email">
+    </div>
+
+    <!-- Subject Info -->
+    <div class="form-group">
+      <label for="subject">Subject:</label>
+      <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
     </div>
 
     <!-- Message input -->
-    <div class="form-group mb-3">
-      <label class="form-label" for="message">Message:</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea type="text" class="form-control" id="message"  placeholder="Message" style="height: 10rem;" name="message" required></textarea>
     </div>
 
 <!-- Check Box -->
@@ -33,7 +39,7 @@
       <button class="btn btn-success btn-lg" type="submit">Submit</button>
     </div>
 
-
   </form>
 
 </div>
+
