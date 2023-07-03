@@ -1,4 +1,5 @@
-   
+  // This is the tip calculator code
+
 function calculateTip() {
 let billTotal = document.getElementById("billTotal").value;
 let tipPercentage = document.getElementById("tipPercentage").value;
@@ -28,3 +29,4 @@ document.getElementById("totalTip").style.display = "none";
 document.getElementById("calculate").onclick = function() {
     calculateTip();
   };
+
