@@ -1,3 +1,3 @@
 ---
-title: Blog Post
+title: David's Tip Calculator
 ---
